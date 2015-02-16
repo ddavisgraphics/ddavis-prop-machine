@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to the Machine!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+      
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css">
+
+  </head>
+  <body ng-app="propMachineApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+     <div class="row"> 
+      <div class="header col-xs-12">
+        <ul class="nav nav-pills pull-right">
+          <li><a ng-href="#/">Home</a></li>
+          <li><a ng-href="#/getStarted">Get Started</a></li>
+        </ul>
+        <h3 class="text-muted">The Proposal Machine </h3>
+      </div>
+     </div>
+
+      <div ng-view=""></div>
+    
+      <div class="row"> 
+          <div class="footer col-xs-12">
+              <p> David J. Davis - 2014 </p>
+          </div>
+      </div>
+    </div>
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="../bower_components/angular-resource/angular-resource.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+   
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+        
+</body>
+</html>
