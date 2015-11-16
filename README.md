@@ -2,8 +2,9 @@
 
 ## About the Project
 
-For this project we are using many wonderful frameworks that are going to help us leverage the most out of the this little application and develope features quickly and rapidly. Following the best conventions possible. Normally these features would all require login, but for the demonstration and showcasing the project everything is going to be resolved in the localhost and using your browsers free storage localStorage. Also this helps me avoid spammers and people trying to hack into an application that is a demonstration of skill.
-Cool notes about this project is that it will be done completely with Javascript, because I have a very big problem with PHP. I could use Ruby, but I like javascript better. If I were deploying this into a real live web app, with multiple users I might consider adjusting the frameworks then. Again this is a prototype.
+Created for a graduate school project, this was a re-hash of a demo application that I created originially in PHP.  The reason it is now in JS, is because I didn't make any security within the application and was getting spammed.  The application was out for demo purposes and wasn't something I could show a potential employer as it sat.  I removed PHP and created all the functionality using JS.  
+
+Normally these features would all require login, but for the demonstration and showcasing the project everything is going to be resolved in the localhost and using your browsers free localStorage. Also this helps me avoid spammers and people trying to hack into an application that is simply a demonstration of skill.
 
 ##DEPENDENCIES FOR THE PROJECT:
 
